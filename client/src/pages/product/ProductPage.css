@@ -1,0 +1,53 @@
+:root {
+  --main-color: #b0ceef;
+  --sec-color: #d31737;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1085px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 770px) {
+  .mb-custom {
+    margin-bottom: 4rem;
+  }
+}
+.notfount {
+  justify-content: center;
+  width: 100%;
+  align-self: flex-start;
+  text-align: center;
+  font-size: 20px;
+  color: var(--main-color);
+  font-family: system-ui;
+}
+/* .product-body{
+  width: 80%;
+} */
+.product-body-sec {
+  width: 90%;
+  justify-content: center;
+}
+.input-group {
+  /* position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 80% !important; */
+  justify-content: center;
+  /* margin-left: 50px;
+    height: fit-content; */
+}
+.form-body {
+  width: 80%;
+  height: fit-content;
+}
+.search-icon {
+  height: fit-content;
+}
